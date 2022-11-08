@@ -1,5 +1,9 @@
 .gradle
+.idea
 /build/
+/gamemanager-api/build/
+/gamemanager-plugin/build/
+/gamemanager-velocity/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting

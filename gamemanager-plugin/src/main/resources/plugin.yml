@@ -1,0 +1,12 @@
+name: GameManager
+version: @version@
+description: A MiniGame Manager.
+author: BattleDash
+
+main: me.battledash.game.GameManager
+load: STARTUP
+database: false
+api-version: "1.13"
+
+softdepend:
+  - ProtocolLib
