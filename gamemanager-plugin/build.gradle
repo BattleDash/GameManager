@@ -57,7 +57,7 @@ dependencies {
     testCompileOnly 'org.projectlombok:lombok:1.18.24'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 
-    compileOnly 'org.spigotmc:spigot:1.18.1-R0.1-SNAPSHOT' // The Spigot API with no shadowing. Requires the OSS repo.
+    compileOnly 'org.spigotmc:spigot-api:1.18.1-R0.1-SNAPSHOT' // The Spigot API with no shadowing. Requires the OSS repo.
     compileOnly group: "com.comphenix.protocol", name: "ProtocolLib", version: "4.7.0"
     // https://mvnrepository.com/artifact/com.google.guava/guava
     implementation group: 'com.google.guava', name: 'guava', version: '31.1-jre'
